@@ -1,0 +1,134 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[UTF8]{ctex}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{titlesec}
+\usepackage{draftwatermark}
+\usepackage{graphicx} % 导入图像的宏包、单图
+
+
+
+
+
+% 页面布局设置
+\geometry{top=2.54cm, bottom=2.54cm, left=3.18cm, right=3.18cm}
+
+% 行距设置
+\linespread{1.5}
+
+%设置水印
+\SetWatermarkText{B站：布加拉提}
+\SetWatermarkScale{0.4}
+% 段落设置
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.5em}
+
+% 节标题格式设置
+\titleformat{\section}{\normalfont\Large\bfseries}{第\chinese{section}章、}{1em}{}
+\titlespacing{\section}{0pt}{2.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+
+% 定理环境设置
+\newtheoremstyle{solution}
+{}
+{}
+{}
+{}
+{\bfseries}
+{、}
+{1em}
+{}
+\theoremstyle{solution}
+\newtheorem{sol}{解}
+
+% 页眉页脚设置
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{b站布加拉提整理（回忆版）b站甘茶w独家讲解}
+\fancyfoot[C]{\thepage}
+
+\rfoot{整理人：八方\\资源提供：考研乔瑟夫}
+\lhead{\includegraphics[width=0.06\linewidth]{p1.png}}
+\rhead{\includegraphics[width=0.06\linewidth]{p2.png}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+
+\begin{center}
+\Large\textbf{2010哈工大硕士考试试题：805物理光学}
+\end{center}
+
+
+
+
+\section*{一、填空与选择（28分）}
+\begin{enumerate}
+    \item 光波的能流密度用\_\_\_\_\_矢量表示，其数学表达式为\_\_\_\_\_。
+    \item \_\_\_\_\_叫波阵面。
+    \item 光波为横波，其传播方向与电场矢量和磁场矢量满足\_\_\_\_\_法则。
+    \item 产生干涉的条件是光波的\_\_\_\_\_。
+    \item 杨氏干涉是用\_\_\_\_\_产生干涉的，楔形平板使用\_\_\_\_\_产生干涉的。
+    \item （重复）当一束自然光以布儒斯特角入射到两种介质分界面上时，就偏振态来说反射光为\_\_\_\_\_，其振动方向 \_\_\_\_\_入射面，透射光为\_\_\_\_\_。
+    \item （重复）真空中传播的平面电磁波，其电场表达式为$E_z=0,E_y=0,E_x=(10^2V/m)cos[\pi\times10^{14}s^{-1}(t-x/c)+\pi/3]$,该电磁波的频率，波长为\_\_\_\_\_，周期为\_\_\_\_\_，振幅为\_\_\_\_\_，初相位为\_\_\_\_\_.
+    \item （重复）光源的时间相干性可用\_\_\_\_\_,\_\_\_\_\_和\_\_\_\_\_三个任意量的任意一个来表征。
+    \item （重复）法布里-波罗干涉仪利用平板的\_\_\_\_\_工作原理。
+    \item （重复）影响干涉条纹对比度的因素有\_\_\_\_\_,\_\_\_\_\_和\_\_\_\_\_。
+    \item （重复）三个理想偏振片堆叠起来，每片通过光轴相对前一片都顺时针旋转$30^\circ$,光强为$I_0$的非偏振光入射。穿过偏振片堆后，光强为\_\_\_\_\_。
+    \item 发生双折射时，两束折射光有一束总是遵循折射定律，另一束不遵循折射定律，这两束光分别称为\_\_\_\_\_和\_\_\_\_\_。
+    \item \_\_\_\_\_称为色散现象。
+    \item 波片是\_\_\_\_\_的元件。
+\end{enumerate}
+\section*{二、选择题}
+\begin{enumerate}
+    \item （重复）在迈克尔逊干涉仪的一只光路中，垂直于光路放入折射率为$n$的透明介质薄膜后，测出两束光的光程差的改变量为一个波长$\lambda$,则该薄膜厚度为\_\_\_\_\_.\\(A) $\lambda/2$ \qquad(B) $\lambda/n$ \qquad(C) $\lambda/2(n)$ \qquad(D) $\lambda/2(n-1)$
+    \item （重复）在双缝干涉实验中，两缝的宽度是相等的，若其中有一个逢的宽度略微变窄，则 \_\_\_\_ .\\(A)干涉条纹的间距变宽\qquad(B)干涉条纹的间距变窄\qquad(C)干涉条纹的间距不变，但原极小值处的强度不再为0\qquad(D)不在发生干涉
+    \item （重复）一束光是自然光和线偏振光的混合光，让它垂直通过一偏振片，若以此入射光束为轴旋转偏振光，测得透射光强度最大值是最小值5倍，那么入射光束中自然光和线偏振光的光强比值是\_\_\_\_\_.\\(A)1/2\qquad（B）1/5\qquad（C）1/4\qquad（D）2/3
+    \item （重复）产生光电效应的本质原因是\_\_\_\_\_.\\(A)电场对光场的直接影响\qquad(B)电场对介质性质的直接影响\qquad(C)其他因素\qquad(D)光场对介质的影响
+    \item 光在界面伤的反射光与透射特性与下列哪个因素无直接关系？\_\_\_\_\_.\\(A)入射角\qquad(B)界面两侧折射率\qquad(C)入射光的偏振态\qquad(D)入射光斑大小
+    \item （重复）假设某一介质对空气的临界角是30°，则光从空气射向此介质时的布儒斯特角是\_\_\_\_\_.\\(A)$tg^{-1}\sqrt({3}/2)$\qquad(B)$tg^{-1}(1/2)$\qquad(C)$tg^{-1}(2\sqrt{3}/3)$\qquad(D)$tg^{-1}2$
+\end{enumerate}
+\section*{三、解释下列名词}
+\begin{enumerate}
+    \item 倏逝波
+    \item 艾里斑
+    \item 巴比涅原理
+    \item 群速度
+    \item 电光效应
+    \item 准单色光
+    \item 瑞利散射
+    \item 惠更斯-菲涅耳原理
+\end{enumerate}
+\section*{四、简答题}
+\begin{enumerate}
+    \item （重复）什么是瑞利判据？以望远系统为例说明它对实际光学系统有何意义？
+    \item （重复）根据波动理论，简述平面波与球面波的差异
+    \item （重复）双缝实验为例，简述光波干涉与衍射的关系。
+    \item 什么是光栅方程？简述它的物理意义
+    \item 什么是等相位面和等振幅面？分别指出一例二者一致和不一致的情况
+\end{enumerate}
+\section*{五、计算题}
+\begin{enumerate}
+    \item 一列平面光波从A点传播到B点，若AB之间插入一透明薄片，其厚度$L=1mm$,折射lv$n=1.5$,光波的波长$\lambda=500nm$,求插入薄片前后B点的相位变化。
+    \item 一束直径为$2mm$的氦氖激光$\lambda=500nm$自地面发向月球，以知月球到地面的距离为$3.76\times10^5km$,计算在月球上接受的光斑大小。
+    \item （重复）纳黄光包含589.6$nm$和589.0$nm$两种波长，要在光波的一级光谱中分辨开这两种波长的谱线，光栅至少应该有多少条缝？
+    \item 杨氏双缝干涉实验中，两缝间距$d=2mm$,入射光波长$\lambda=600nm$,屏距$D=3m$,各缝宽度相同$0.2mm$求：
+        \begin{enumerate}
+        \item 拓展光源距双缝多远才能在屏上看到清晰的条纹
+        \item 屏中心与第一级亮纹相距多少
+    \end{enumerate}
+\end{enumerate}
+\section*{六、综合题}
+\begin{enumerate}    
+    \item 请画出迈克尔逊干涉仪的工作原理，根据你的理解，讨论其时间相干性。
+    \item 该干涉仪的一臂以速度$v$匀速推移，用透镜接受干涉条纹，并1汇聚于光电元件上，把光强变化为电信号，若测得电信号的时间频率为V，求入射光波的波长$\lambda$
+    \item 若入射光波长在$0.6um$左右，要使电信号频率控制在$50HZ$,反射镜平移的速度为多少？
+    \item 按以上速度移动反射镜，纳黄光产生的电信号的拍频为多少？（纳黄光双谱线波长为x890A和5896A（数据丢失））
+\end{enumerate}
+\end{document}

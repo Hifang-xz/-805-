@@ -1,0 +1,112 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[UTF8]{ctex}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{titlesec}
+\usepackage{draftwatermark}
+\usepackage{graphicx} % 导入图像的宏包、单图
+
+
+
+
+
+% 页面布局设置
+\geometry{top=2.54cm, bottom=2.54cm, left=3.18cm, right=3.18cm}
+
+% 行距设置
+\linespread{1.5}
+
+%设置水印
+\SetWatermarkText{B站：布加拉提}
+\SetWatermarkScale{0.4}
+% 段落设置
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.5em}
+
+% 节标题格式设置
+\titleformat{\section}{\normalfont\Large\bfseries}{第\chinese{section}章、}{1em}{}
+\titlespacing{\section}{0pt}{2.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+
+% 定理环境设置
+\newtheoremstyle{solution}
+{}
+{}
+{}
+{}
+{\bfseries}
+{、}
+{1em}
+{}
+\theoremstyle{solution}
+\newtheorem{sol}{解}
+
+% 页眉页脚设置
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{b站布加拉提整理（回忆版）b站甘茶w独家讲解}
+\fancyfoot[C]{\thepage}
+
+\rfoot{整理人：八方\\资源提供：考研乔瑟夫}
+\lhead{\includegraphics[width=0.06\linewidth]{p1.png}}
+\rhead{\includegraphics[width=0.06\linewidth]{p2.png}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+
+\begin{center}
+\Large\textbf{2001哈工大硕士考试试题：805物理光学}
+\end{center}
+
+
+
+
+\section*{一、选择与填空（共10题，35分）}
+\begin{enumerate}
+   \item 单⾊平⾏光垂直照射在薄膜上，经上下两个表⾯反射的两束光发⽣⼲涉，若薄膜的厚度为h，\(n_1\)，\(n_2\) 和 \（n_3\) 相应为⼊射介质、薄膜和基底材料的折射率，且\( n_1<n_2>n_3\),\(\lambda_1\)为⼊射光在\(n_1\)中的波长，则两束反射光的光程差为:\_\_\_\_ .\\(A)2\(n_1 h\） \qquad (B)2\(n_2 h- \lambda_1 /2n_1\) \qquad(C)2\(n_2 h-n_1 \lambda_1 /2\)  \qquad(D)2\(n_2 h- n_2 \lambda_1 /2\)
+   \item ⽤单⾊光垂直照射在观察⽜顿环的装置中，当平具透鏡垂直南上缓慢平移⽽远离平⾯玻璃时，可以观察到这些环状⼲涉条纹:\_\_\_\_ .\\(A)向中⼼收缩，条纹间隔变⼩；(B)向中⼼收缩，环⼼呈明暗交替变化；
+    (C)向外扩张，环⼼呈明暗交替变化;(D)；向外扩张，条纹间隔变⼤；
+   \item ⼀光强为 \(I_0\) 的线偏振光先后通过两个偏振⽚\(p_1\)和\(p_2\) ，\(p_1\) 和\(p_2\) 的偏振⽅向与原⼊射光的光矢量振动⽅向的夹角分别是\(\alpha\) 和 \(90°\)，则通过两偏振⽚后的光强是:\_\_\_\_ .\\(A) 1/2\(I_0 cos^2\alpha\)  \quad(B) 0  \quad(C) 1/4\(I_0 sin^2 2\alpha\)  \quad(D) 1/4\(I_0sin^2a\) \quad (E) \(I_0cos^4 \alpha\)
+   \item 波长\(\lambda=550nm\) 的单⾊光垂直⼊射到光栅常数\(d=2×1 0^{-4}cm\)的平面衍射光栅上，能观察到的光谱线的最⼤级次为:\_\_\_\_ .\\（ A ） 2  \qquad (B)  3\qquad  （ C ）4 \qquad （ D ） 5
+   \item  在单缝夫琅和费衍射实验中，设第⼀暗纹的衍射角很⼩,若钠黄光 \(\lambda_1 =589nm\)中央亮纹宽度为4mm，则\(\lambda = 4 4 2 mnm\) 的蓝紫⾊光的中央亮条纹宽度为:\_\_\_\_ .
+
+   \item  影响干涉条纹对⽐度的因素有:\_\_\_\_ .
+   \item  ⽤⼀定波长的单⾊光进⾏双缝干 涉 实 验 , 欲 使 屏 上 的 于 涉 条 纹 间 距 变 ⼤ ， 可 采⽤用的 ⽅ 法 是 :\_\_\_\_ .
+   \item  当 ⼀ 東 ⾃ 然 光 以 布 儒 斯 特 角 ⼊ 射 到 两 种 介 质 分 界 面 上 时 ， 就 偏 振 状 态 来 说 反 射光 为\_\_\_\_ .， 其 振 动 ⽅ 向\_\_\_\_  于 ⼊ 射 ⾯ 。 透 射 光 为\_\_\_\_ .
+   \item 在迈克尔逊干涉仪的一支光路中，垂直于光路放入折射率为n的透明介质薄膜后，测出两光束的光程差的改变量为一个波长\(\lambda\) ,则薄膜的厚度是:\_\_\_\_ .\\（A）$\lambda/2$\qquad(B)$\lambda /2n$ \qquad(C) $\lambda /n$ \qquad(D)$\lambda /2(n-1)$
+   \item 在双缝干涉实验中，两缝的宽度是相等的，若其中有一个逢的宽度略微变窄，则 \_\_\_\_ .\\(A)干涉条纹的间距变宽\qquad(B)干涉条纹的间距变窄\qquad(C)干涉条纹的间距不变，但原极小值处的强度不再为0\qquad(D)不在发生干涉
+\end{enumerate}
+
+
+
+\section*{二、简述，（共5题，35分）}
+\begin{enumerate}
+    \item 简述当入射在1/4波片上的光是自然光或者是偏振光时，从拨片出射的光的偏振性质如何？
+    \item 如何用辩证的观点理解双缝的干涉与衍射？
+    \item 两束光波可以产生干涉的条件是什么？如何使两个震动方向互相垂直的偏振光产生干涉？
+    \item 根据你的理解，一般情况下，光波在各向同性介质和各向异性的介质中传播时有何不同？
+    \item 什么叫光栅？其性质用何参数可以描述？它有什么作用和用途？
+    \item 什么是瑞利判据？它对实际光学系统有何意义？
+\end{enumerate}
+
+\section*{三、计算与分析（共3题，20分）}
+
+\begin{enumerate}
+    \item 在迈克尔逊干涉仪实验中：测得空气层厚度变了0.25mm时，条纹变化了916个，求所用光源的波长？若空气层厚度变化时，从条纹出现到再次消失总共数得条纹3500条。\\（1）求光源发出的光波的谱线宽度为多少?\\(2) 将此光源用于玻璃薄板的干涉中，则薄板的极限厚度是多少？(\（n=1.5\）)
+
+    \item \(\lambda=600nm\) 的单色光垂直入射到一光栅上测得第二级主级大衍射条角为30°，且第三级是缺级.\\(1)光栅常数d等于多少？\\(2)透光缝可能的最小宽度a等于多少？\\(3)在选定d和a后，求在屏幕上可能呈现的全部主级大的级次？
+    \item 一列波长\(\lambda=1cm\) 的平面微波垂直入射在一个带有圆孔的不透明屏上，该孔的孔径是可调的。一个感光面积很小的探测器放在圆孔后中心轴上1m远处。如果圆孔的半径从零逐渐增大。问：\\(1)半径多大时，探测器能测到它的第一个最大值？\\(2)半径多大时，能在第一个最大值之后又测到第二个极小值？\\(3)在后一半径下，求沿轴的极大值和极小值位置所在？
+\end{enumerate}
+\section*{四、综合题（10分）}
+
+\begin{enumerate}
+    \item 给定加工好的透明的，均匀的，各向同性的，较厚的玻璃平板（表面未镀膜），请设计或选择一个干涉装置，要求：\\(1)测量平板表面的面型\\(2)测量平板地平行度\\(3)说明工作原理。简述测量步骤，并对所设计（或选择）的每一个元件进行必要的论述或提出定向性的要求。
+\end{enumerate}
+\end{document}
